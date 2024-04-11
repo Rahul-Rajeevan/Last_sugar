@@ -1,0 +1,67 @@
+div,button{
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: black;
+    padding: 16px 0px;
+}
+#logo{
+    width: 256px;
+}
+nav.navbar{
+    padding: 0px;
+    color: white;
+}
+nav .container-fluid,nav .container-fluid>div,nav .container-fluid p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav .container-fluid p{
+    gap: 8px;
+    margin: 0px;
+}
+nav .container-fluid>div:last-child>span{
+    padding: 0px 8px;
+}
+form{
+    padding-left: 24px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px 0px 0px 8px;
+}
+#stylish-input {
+    border: 1px solid #212121; /* Removes the border */
+    background-color: #212121; /* Sets the background color to gray */ /* Sets the text color to white */
+    padding: 0px;
+    width: 374px;
+    height: 36px;
+}
+
+#stylish-input::placeholder {
+    color: rgb(107, 103, 103); /* Sets the placeholder text color to white */
+    font-family: "Roboto", sans-serif;
+    
+}
+
+/* Removes the outline that appears when the input is focused (clicked on) */
+#stylish-input:focus {
+    outline: none;
+}
+#stylish-input+button{
+    display: flex;
+    align-items: center;
+}
+#nav_offer{
+    height: auto;
+    width: 100%;
+    padding: 6px 140px;
+    background-image: url("../../../assets/images/Navbar/offers.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#nav_offer p{
+    margin:0px;
+}
