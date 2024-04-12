@@ -7,7 +7,7 @@ const Imagecards = ({list,text}) => {
     <div class="images_section">
         <Pink text={text} theme={"dark"}/>
         <div>
-        {list.map(item=><img src={item} alt="image"/>)}
+        {list.map(item=><img src={item} alt="image" loading="lazy"/>)}
         </div>
     </div>
   )

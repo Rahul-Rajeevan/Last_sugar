@@ -14,6 +14,7 @@ import Imagecards from "../../common/Imagecards/Imagecards.jsx";
 import image12 from "../../../assets/images/image_cards/image.png";
 import image22 from "../../../assets/images/image_cards/image1.png";
 import image32 from "../../../assets/images/image_cards/image2.png";
+import Footer from "../../common/Footer/Footer.jsx";
 
 const Landing = () => {
   const images = [image1, image2, image3, image4];
@@ -22,7 +23,7 @@ const Landing = () => {
     <div>
       <section>
       <div id="nav_offer">
-      <p>Use Code: BEAUTY15 - 15% off on our Bestsellers! 😍💸</p>
+      <p style={{color:"white"}}>Use Code: BEAUTY15 - 15% off on our Bestsellers! 😍💸</p>
     </div>
       </section>
       <header>
@@ -60,7 +61,7 @@ const Landing = () => {
       </section>
       <footer>
         <div class="containers">
-
+          <Footer/>
         </div>
       </footer>
     </div>

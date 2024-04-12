@@ -2,7 +2,7 @@ import React from 'react'
 
 const Carousal = ({ images }) => {
   return (
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
         {images.map((image, index) => (
           <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>

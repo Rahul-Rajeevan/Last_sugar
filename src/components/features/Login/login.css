@@ -1,0 +1,29 @@
+.login{
+    display: flex;
+}
+.login>img{
+    width: 38%;
+    height: 100vh;
+}
+.login>div{
+    width: 62%;
+    background-image: url("../../../assets/images/Login/bg.png");
+}
+.login>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+}
+.login>div>p{
+    color: gray;
+    font-size: 14px;
+}
+.login>div span{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: black;
+}

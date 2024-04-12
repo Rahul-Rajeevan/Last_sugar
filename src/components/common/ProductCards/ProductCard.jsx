@@ -10,6 +10,7 @@ const ProductCard = () => {
         src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F01_332ccf25-8e0f-4b40-be7b-3e322eeeb653.jpg%3Fv%3D1712590471&w=384&q=75"
         class="card-img-top"
         alt="..."
+        loading="lazy"
       />
       <div class="card-body">
         <p>Matte Attack Transferproof Lipstick</p>

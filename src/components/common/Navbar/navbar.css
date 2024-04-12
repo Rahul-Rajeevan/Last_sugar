@@ -65,3 +65,18 @@ form{
 #nav_offer p{
     margin:0px;
 }
+#nav_sub{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #141414 ;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+    padding: 1rem 0rem;
+    height: 53px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
