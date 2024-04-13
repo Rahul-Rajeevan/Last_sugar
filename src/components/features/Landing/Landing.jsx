@@ -21,16 +21,7 @@ const Landing = () => {
   const images2=[image12,image22,image32]
   return (
     <div>
-      <section>
-      <div id="nav_offer">
-      <p style={{color:"white"}}>Use Code: BEAUTY15 - 15% off on our Bestsellers! 😍💸</p>
-    </div>
-      </section>
-      <header>
-        <div class="containers">
-          <Navbar />
-        </div>
-      </header>
+      
       <section>
         <div class="containers">
         <Carousal images={images} />

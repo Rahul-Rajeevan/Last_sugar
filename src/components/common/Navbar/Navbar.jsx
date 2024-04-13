@@ -43,17 +43,16 @@ const Navbar = () => {
         </div>
       </nav>
       <div id="nav_sub">
-        <span>LIPS</span>
-        <span>EYES</span>
-        <span>FACE</span>
-        <span>NAILS</span>
-        <span>SKINCARE</span>
-        <span>ACCESSORIES</span>
-        <span>GIFTING</span>
-        <span>BESTSELLERS</span>
-        <span>NEW LAUNCHES</span>
-        <span>OFFERS</span>
-        <span>BLOG</span>
+      <Link to="/lips"><span>LIPS</span></Link>
+      <Link to="/eyes"><span>EYES</span></Link>  
+      <Link to="/face"><span>FACE</span></Link>  
+      <Link to="/nails"><span>NAILS</span></Link>  
+      <Link to="/skincare"><span>SKINCARE</span></Link> 
+      <Link to="/accessories"><span>ACCESSORIES</span></Link>  
+      <Link to="/bestsellers"><span>BESTSELLERS</span></Link>        
+      <Link to="/newlanches"><span>NEW LAUNCHES</span></Link>  
+      <Link to="/offers"><span>OFFERS</span></Link>  
+      <Link to="/blog"><span>BLOG</span></Link> 
       </div>
     </div>
   );

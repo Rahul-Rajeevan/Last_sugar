@@ -1,0 +1,16 @@
+
+#products_section{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: #f2f2f2;
+}
+#products_section .dropdown-menu{
+    padding-left: 1rem;
+}
+#products_section>section:first-child{
+    /* background-color: red;
+    position: sticky;
+    top: 400px; */
+}
